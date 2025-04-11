@@ -1,8 +1,109 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Bytebroth</title>
+  <link rel="icon" type="image/png" href="assets/images/bytebroth_icon.png">
 
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Margarine&family=Red+Hat+Display&family=Red+Hat+Text&family=Righteous&family=Urbanist:wght@400;900&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-  <h1>Bytebroth</h1>
-  <p>video game</p>
+  <div id="titleHeader" class="container-fluid py-5 text-center justify-content-center align-items-center">
+    <img id="titleImg" src="assets/images/bytebroth_logo_wide.png" alt="Bytebroth logo">
+  </div>
+  <nav class="navbar by-0 navbar-expand-sm container-fluid text-bg-secondary sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsible-navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#games">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="content container py-5">
+    <div id="about" class="container py-5">
+      <h2>Fresh out of the pot</h2>
+      <p>
+        We are a team of developers with the goal of making fun and accessible games. 
+      </p>
+      <img src="http://placekitten.com/400/300" alt="Car" class="img-fluid">
+    </div>  
+    
+    <div id="games" class="container py-5">
+      <h2>Games</h2>
+      <p>
+        We are a team of developers with the goal of making fun and accessible games. 
+      </p>
+      <img src="http://placekitten.com/400/300" alt="Car" class="img-fluid">
+    </div>
+    
+    <div id="contact" class="container py-5">
+      <h2>Contact</h2>
+      <p>
+        We are a team of developers with the goal of making fun and accessible games. 
+      </p>
+      <img src="http://placekitten.com/400/300" alt="Car" class="img-fluid">
+    </div>
+  </div>
+
+  <footer class="container-fluid text-bg-dark py-5">
+    <div class="row">
+      <div class="col-sm">
+        <h5>Games</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-light" href="#">Cool stuff</a></li>
+          <li><a class="text-light" href="#">Random feature</a></li>
+          <li><a class="text-light" href="#">Team feature</a></li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-light" href="#">Business</a></li>
+          <li><a class="text-light" href="#">Education</a></li>
+          <li><a class="text-light" href="#">Government</a></li>
+          <li><a class="text-light" href="#">Gaming</a></li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-light" href="#">Team</a></li>
+          <li><a class="text-light" href="#">Locations</a></li>
+          <li><a class="text-light" href="#">Privacy</a></li>
+          <li><a class="text-light" href="#">Terms</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
 </body>
+</html>

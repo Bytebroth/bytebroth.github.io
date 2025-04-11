@@ -1,0 +1,28 @@
+:root {
+    --main-bg-color: Coral;
+    --sec-bg-color: LightSalmon;
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+h1 {
+    font-family: 'Margarine', sans-serif;
+    font-style: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#titleHeader {
+    background-image: url("assets/images/soup_texture.png");
+    background-size: 512px 512px;
+    background-repeat: repeat;
+}
+
+#titleImg {
+    width: 100%;
+    max-width: 500px;
+}
